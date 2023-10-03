@@ -11,7 +11,6 @@ This repository contains my solutions to various LeetCode problems. Each problem
     - [Installation](#installation)
   - [Usage](#usage)
   - [Directory Structure](#directory-structure)
-  - [Contributing](#contributing)
 
 ## Getting Started
 
@@ -68,42 +67,10 @@ leetcode-solutions/
 ├── problem2/
 │   ├── solution.py
 │   └── README.md
-│
 └── ...
 ```
 
 - `problemX/` - Each problem has its own directory with a unique identifier.
-  - `problem.md` - Contains the problem statement and description.
   - `solution.py` (or other language-specific extensions) - Contains the solution to the problem.
   - `README.md` - Additional information about the problem, approach, and any special notes.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute:
-
-1. Fork this repository.
-
-2. Create a new branch for your work:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. Add your solution and update the README if necessary.
-
-4. Commit your changes:
-
-   ```bash
-   git commit -m "Add your meaningful commit message here"
-   ```
-
-5. Push your changes to your forked repository:
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-6. Open a pull request to the main repository, explaining your changes and improvements.
-
-7. Your contribution will be reviewed, and if accepted, it will be merged into the main repository.
 
