@@ -62,13 +62,11 @@ The repository is organized as follows:
 leetcode-solutions/
 │
 ├── problem1/
-│   ├── problem.md
 │   ├── solution.py
 │   └── README.md
 │
 ├── problem2/
-│   ├── problem.md
-│   ├── solution.java
+│   ├── solution.py
 │   └── README.md
 │
 └── ...
