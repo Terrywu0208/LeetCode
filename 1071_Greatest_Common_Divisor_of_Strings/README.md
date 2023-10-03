@@ -12,15 +12,15 @@ str2 = "ABC"
 
 **Output:**
 ```python
-"GCD"
+"ABC"
 ```
 
 **Explanation:** In this example, the largest string that divides both `str1` and `str2` is "ABC".
 
 **Input:**
 ```python
-str1 = "ABAB"
-str2 = "ABABAB"
+str1 = "LEET"
+str2 = "CODE"
 ```
 
 **Output:**

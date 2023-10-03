@@ -30,13 +30,13 @@ Input:
 - `word2 = "ef"`
 
 Output:
-- `"aebfcde"`
+- `"aebfcd"`
 
 Explanation:
 - We start with `word1[0]`, which is `"a"`, then `word2[0]`, which is `"e"`.
 - Next, we take `word1[1]`, which is `"b"`, and `word2[1]`, which is `"f"`.
 - Now, `word1` is longer, so we continue adding characters from `word1`: `"c"` and `"d"`.
-- The merged string is `"aebfcde"`.
+- The merged string is `"aebfcd"`.
 
 ## My Solution
 
