@@ -27,7 +27,7 @@ s = "LeetCode"
 
 **Output:**
 ```python
-"Loetceed"
+"LeotCede"
 ```
 
 **Explanation:** The vowels are 'e', 'e', and 'o'. We reverse them to get "Loetceed".
