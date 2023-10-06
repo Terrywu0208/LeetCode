@@ -14,9 +14,9 @@ You are given an integer array `nums`, and your task is to return an array `answ
 
 To solve this problem efficiently in O(n) time complexity without using division, we can use two passes through the input array `nums`. The idea is to maintain two auxiliary arrays to keep track of the product of elements to the left and right of each element in `nums`.
 
-1. **Initialization**: First, initialize a result array `result` of the same length as `nums` and set all its elements to 1. This `result` array will store the final product values for each element.
+1. **Initialization**: First, initialize a result array `result` of the same length as `nums` and set all its elements to 1. Initialize two variables, `pre` and `pos`, to 1. This `result` array will store the final product values for each element.
 
-2. **Left Pass**: Initialize two variables, `pre` and `pos`, to 1. These variables will keep track of the product of elements to the left and right of the current element, respectively.
+2. **Left Pass**: These variables will keep track of the product of elements to the left and right of the current element, respectively.
 
     - In the first pass (from left to right), iterate through `nums`. At each index `i`, update `result[i]` with the product of all elements to the left of `nums[i]` (which is stored in `pre`). Then, update `pre` by multiplying it with `nums[i]`. This pass will ensure that `result[i]` contains the product of all elements to the left of `nums[i]`.
 
