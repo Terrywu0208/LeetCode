@@ -1,4 +1,4 @@
-# Merge Strings Alternately
+# LeetCode Problem: Merge Strings Alternately
 
 I recently tackled the LeetCode problem "Merge Strings Alternately" and came up with a Python solution to solve it. Let me explain the problem first in simple terms and then walk you through my solution.
 
