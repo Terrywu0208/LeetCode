@@ -44,6 +44,12 @@ Output: `true`
 
 ## Solution
 
+```python
+class Solution:
+    def closeStrings(self, word1: str, word2: str) -> bool:
+        return sorted(list(Counter(word1).values())) == sorted(list(Counter(word2).values())) and set(word1) == set(word2)
+```
+
 To solve this problem, you can use the following approach:
 
 1. Count the frequency of characters in both `word1` and `word2` and create lists of these frequencies.
