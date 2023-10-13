@@ -7,22 +7,28 @@ You are given an array of integers, `arr`. Your task is to determine if the numb
 
 **Example 1:**
 
-```Input: arr = [1,2,2,1,1,3]
-Output: true```
+```
+Input: arr = [1,2,2,1,1,3]
+Output: true
+```
 
 Explanation: In this example, the value 1 appears 3 times, 2 appears 2 times, and 3 appears 1 time. No two values have the same number of occurrences, so the function returns `true`.
 
 **Example 2:**
 
-```Input: arr = [1,2]
-Output: false```
+```
+Input: arr = [1,2]
+Output: false
+```
 
 Explanation: Here, the value 1 appears 1 time, and the value 2 appears 1 time as well. Since both values have the same number of occurrences (1), the function returns `false`.
 
 **Example 3:**
 
-```Input: arr = [-3,0,1,-3,1,1,1,-3,10,0]
-Output: true```
+```
+Input: arr = [-3,0,1,-3,1,1,1,-3,10,0]
+Output: true
+```
 
 Explanation: In this case, the value -3 appears 3 times, 0 appears 2 times, 1 appears 4 times, and 10 appears 1 time. No two values have the same number of occurrences, so the function returns `true`.
 
