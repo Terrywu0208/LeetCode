@@ -54,18 +54,18 @@ class Solution:
 ```
 
 
-**Performance Difference Between `for` and `while` Loops in Python**
+## Performance Difference Between `for` and `while` Loops in Python
 
-**Explanation:**
+###  Explanation:
 
 To explain the performance difference between `for` and `while` loops in Python, we need to consider the internal implementation and iteration mechanisms of Python.
 
-1. **How `for` Loop Works**:
+### 1. **How `for` Loop Works**:
    - The `for` loop is primarily used to iterate over iterable objects such as lists, tuples, dictionaries, and more.
    - Python uses iterators behind the scenes to implement the `for` loop. This allows Python to optimize the iteration process as it knows how to traverse the iterable.
    - This design makes `for` loops typically faster than similar `while` loops because they do not require manual management of indices or counters, leveraging Python's built-in iteration mechanism.
 
-2. **How `while` Loop Works**:
+### 2. **How `while` Loop Works**:
    - The `while` loop is a more general-purpose looping structure that can be used in various conditions.
    - In a `while` loop, you need to manage the loop control variable yourself (e.g., like the `l` variable in your first program), which can introduce additional operations.
    - Additionally, because the termination condition of a `while` loop may be more complex, it needs to perform a condition test during each iteration.
