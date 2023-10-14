@@ -8,6 +8,8 @@ Here's an example to illustrate the problem:
 
 ### Example 1:
 
+![ex1](./img/ex1.jpg)
+
 **Input:**
 ```
 grid = [[3, 2, 1],
@@ -25,6 +27,8 @@ There is 1 equal row and column pair:
 - (Row 2, Column 1): [2, 7, 7]
 
 ### Example 2:
+
+![ex2](./img/ex2.jpg)
 
 **Input:**
 ```
