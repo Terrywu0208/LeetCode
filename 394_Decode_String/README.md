@@ -65,8 +65,3 @@ class Solution:
 7. Continue this process for the entire input string.
 
 8. Finally, join all the characters left in the stack to obtain the decoded string.
-
-Here's the Python code for the solution:
-
-
-
