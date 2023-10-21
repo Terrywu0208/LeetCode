@@ -56,4 +56,80 @@ The solution uses a depth-first search (DFS) algorithm to traverse the binary tr
 
 8. The solution starts with an empty `prefix_sums` dictionary and calls the `dfs` function with the root node and the target sum.
 
+### Detail Step:
+```
+node:  10
+prefix_sums:  {0: 1, 10: 1}
+prefix_sum:  10
+want to find:  2
+count:  0
+-----------------------------------
+node:  5
+prefix_sums:  {0: 1, 10: 1, 15: 1}
+prefix_sum:  15
+want to find:  7
+count:  0
+-----------------------------------
+node:  3
+prefix_sums:  {0: 1, 10: 1, 15: 1, 18: 1}
+prefix_sum:  18
+want to find:  10
+count:  1
+-----------------------------------
+node:  3
+prefix_sums:  {0: 1, 10: 1, 15: 1, 18: 1, 21: 1}
+prefix_sum:  21
+want to find:  13
+count:  0
+-----------------------------------
+remove prefix_sum:  21
+-----------------------------------
+node:  -2
+prefix_sums:  {0: 1, 10: 1, 15: 1, 18: 1, 21: 0, 16: 1}
+prefix_sum:  16
+want to find:  8
+count:  0
+-----------------------------------
+remove prefix_sum:  16
+-----------------------------------
+remove prefix_sum:  18
+-----------------------------------
+node:  2
+prefix_sums:  {0: 1, 10: 1, 15: 1, 18: 0, 21: 0, 16: 0, 17: 1}
+prefix_sum:  17
+want to find:  9
+count:  0
+-----------------------------------
+node:  1
+prefix_sums:  {0: 1, 10: 1, 15: 1, 18: 1, 21: 0, 16: 0, 17: 1}
+prefix_sum:  18
+want to find:  10
+count:  1
+-----------------------------------
+remove prefix_sum:  18
+-----------------------------------
+remove prefix_sum:  17
+-----------------------------------
+remove prefix_sum:  15
+-----------------------------------
+node:  -3
+prefix_sums:  {0: 1, 10: 1, 15: 0, 18: 0, 21: 0, 16: 0, 17: 0, 7: 1}
+prefix_sum:  7
+want to find:  -1
+count:  0
+-----------------------------------
+node:  11
+prefix_sums:  {0: 1, 10: 1, 15: 0, 18: 1, 21: 0, 16: 0, 17: 0, 7: 1}
+prefix_sum:  18
+want to find:  10
+count:  1
+-----------------------------------
+remove prefix_sum:  18
+-----------------------------------
+remove prefix_sum:  7
+-----------------------------------
+remove prefix_sum:  10
+-----------------------------------
+```
+
 This solution efficiently counts the paths with the desired sum while exploring the entire tree, handling cases where the path can start or end at any node in the tree.
