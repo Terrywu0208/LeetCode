@@ -51,4 +51,5 @@ The solution uses a recursive approach to find the LCA of two given nodes, p and
 
 The algorithm works by recursively searching the left and right subtrees for the nodes p and q. The first time we find both nodes in the same path, we return the LCA.
 
-
+## Reference
+video tutorial: [Longest ZigZag Path in a Binary Tree - Leetcode 1372 - Python](https://www.youtube.com/watch?v=nYayKgQzThs).
